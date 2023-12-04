@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calibration Values</title>
-    <script src="/calibration_evaluator.js" defer></script>
+    <script src="/day1/calibration_evaluator.js" defer></script>
 </head>
 <body>
+     <input type="file" id="fileInput" onchange="calibrate()" />
     <div id="calibrationValues"></div>
-    <div id="sum"></div>
+    <div id="sum"><p class="calibrationValues"></p></div>
+
 </body>
 </html>
